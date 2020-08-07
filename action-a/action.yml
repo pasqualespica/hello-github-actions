@@ -7,7 +7,10 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
-
+  DJE:
+    description: "saluto tipico a Roma"
+    required: true
+    default: "Dajeeee fratè"
 runs:
   using: "docker"
   image: "Dockerfile"
